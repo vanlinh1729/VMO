@@ -1,0 +1,83 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,200;0,400;0,600;0,700;0,800;1,200;1,300&display=swap");
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Noto Sans", sans-serif;
+  font-size: 14px;
+  overflow-y: scroll;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #fafafa;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.content-empty {
+  content: "";
+}
+.tooltip:hover .tooltip-panel,
+.tooltip-panel:hover {
+  @apply opacity-100 z-10 visible;
+}
+
+.tooltip-panel {
+  @apply opacity-0 transition-all duration-300 invisible;
+}
+
+.tooltip:hover .tooltip-panel,
+.tooltip-panel:hover {
+  @apply opacity-100 z-10 visible;
+}
+
+.tooltip::after {
+  height: 20px;
+  left: 0;
+  position: absolute;
+  width: 150%;
+  top: 100%;
+}
+.footer-top {
+  background-image: url(https://cdn.vmogroup.com/vmogroup-global/assets/img/img_bg.jpg);
+}
+.bg-banner-top {
+  background-image: url(https://cdn.vmogroup.com/vmogroup-global/assets/img/img_banner.jpg);
+}
+
+.bg-slider1 {
+  background-image: url(https://cdn.vmogroup.com/vmogroup-global/assets/img/bestworks/img_aimee_bg.jpg);
+}
+.bg-slider3 {
+  background-image: url(https://cdn.vmogroup.com/vmogroup-global/assets/img/bestworks/img_aimee_bg.jpg);
+}
+.bg-meetus {
+  background-image: url(https://www.vmogroup.com/static/media/BG.68e79496.png);
+}
+.bg-set {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no;
+}
+.bg-img {
+  background-repeat: no;
+  background-size: cover;
+}
+.p-x-root {
+  @apply lg:px-[200px] px-4;
+}
+.arrow-down {
+  width: 0;
+  height: 0;
+  border-left: 7px solid transparent;
+  border-right: 7px solid transparent;
+  border-top: 7px solid;
+}
+.menu-toggle {
+  transform: translateX(0);
+}
