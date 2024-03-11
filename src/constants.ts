@@ -40,7 +40,8 @@ export const BannerList: Banner[] = [
     text: "left",
     details:
       "VMO has been offering reliable and affordable ODC to customer worldwide since 2010 with power of the top Vietnam senior software developers in the heart of Hanoi, Vietnam. ODC is the ideal choice for companies that don’t have an internal IT department capable of the full cycle of software development and would like to outsource the whole IT processes on VMO premise.",
-    logoImage: "	https://www.vmogroup.com/static/media/ic_center.c720c5e0.svg",
+    logoImage:
+      "https://cdn.vmogroup.com/vmogroup-global/assets/img/whatwecando/ic_center.svg",
   },
   {
     path: "/services/mobile-development",
@@ -51,7 +52,7 @@ export const BannerList: Banner[] = [
     details:
       "Develop powerful, highly usable mobile apps that solve business problems, attract users, and reinforce your brand! VMO flagship team in engineering and development are the creators of +100 excellent and profitable applications that are loved globally by the users.",
     logoImage:
-      "https://www.vmogroup.com/static/media/ic_smartphone.857cb01b.svg",
+      "https://cdn.vmogroup.com/vmogroup-global/assets/img/whatwecando/ic_smartphone.svg",
   },
   {
     path: "/services/web-and-web-app-development",
@@ -61,7 +62,8 @@ export const BannerList: Banner[] = [
     text: "left",
     details:
       "We offer end-to-end Web and Web application development, from planning sitemap and wireframe, design page layouts to actual implementation and maintenance. VMO is proud to providing tailor-made, cost-effective, highly scalable and rich interactive web apps for clients across various business sectors.",
-    logoImage: "https://www.vmogroup.com/static/media/ic_code_web.0fcc504c.svg",
+    logoImage:
+      "https://cdn.vmogroup.com/vmogroup-global/assets/img/whatwecando/ic_code_web.svg",
   },
   {
     path: "/services/iot",
@@ -71,7 +73,8 @@ export const BannerList: Banner[] = [
     text: "left",
     details:
       "VMO offers complete IoT enterprise solutions that will prepare your company for a more inter-connected, device-driven world. Our IoT flagship team successfully delivered custom solutions for clients in various sectors: smart cities, industrial factories, wearables, vehicles, etc. Connecting hundred of smart devices, sensors and systems into one growing ecosystem.",
-    logoImage: "https://www.vmogroup.com/static/media/ic_IOT.f125a75e.svg",
+    logoImage:
+      "https://cdn.vmogroup.com/vmogroup-global/assets/img/whatwecando/ic_IOT.svg",
   },
   {
     path: "/services/ai",
@@ -81,7 +84,8 @@ export const BannerList: Banner[] = [
     text: "left",
     details:
       "VMO understand how AI-powered applications can change the future of your company! Drive business growth and enhance operational efficiency with more intelligent, automated solutions, steered by latest AI technologies: from machine learning to natural language processing, to computer vision and Predictive Analytics.",
-    logoImage: "	https://www.vmogroup.com/static/media/ic_AI.dc651284.svg",
+    logoImage:
+      "https://cdn.vmogroup.com/vmogroup-global/assets/img/semiconductor-offerings/ai-icon.svg",
   },
   {
     path: "/portfolio",
@@ -163,7 +167,7 @@ export const SwiperBanner = [
     productImg:
       "https://www.vmogroup.com/static/media/img_ck_screenshot.37beb192.png",
     bgImage:
-      "https://cdn.vmogroup.com/vmogroup-global/assets/img/bestworks/img_aimee_bg.jpg",
+      "https://cdn.vmogroup.com/vmogroup-global/assets/img/bestworks/img_ck_bg.jpg",
     field: "Cross Platform",
     description: "Strongly enhance your information security",
     productName: "Clearkeep",
@@ -173,7 +177,8 @@ export const SwiperBanner = [
   {
     productImg:
       "https://www.vmogroup.com/static/media/img_ck_screenshot.37beb192.png",
-    bgImage: "https://www.vmogroup.com/static/media/img_syomit_bg.9ea1bc8e.jpg",
+    bgImage:
+      "https://cdn.vmogroup.com/vmogroup-global/assets/img/bestworks/img_ck_bg.jpg",
     field: "AI & Machine Learning tool",
     description: "To optimize user shopping Experience",
     productName: "SYOMit",
@@ -183,7 +188,8 @@ export const SwiperBanner = [
   {
     productImg:
       "	https://www.vmogroup.com/static/media/img_paktor_screenshot.857bb9a3.png",
-    bgImage: "https://www.vmogroup.com/static/media/img_syomit_bg.9ea1bc8e.jpg",
+    bgImage:
+      "https://cdn.vmogroup.com/vmogroup-global/assets/img/bestworks/img_ck_bg.jpg",
     field: "Giant Start-up",
     description: "About online dating in Asia",
     productName: "Paktor",
@@ -193,7 +199,8 @@ export const SwiperBanner = [
   {
     productImg:
       "	https://www.vmogroup.com/static/media/img_mobio_screenshot.97261b15.png",
-    bgImage: "https://www.vmogroup.com/static/media/img_mobio_bg.29622987.jpg",
+    bgImage:
+      "https://cdn.vmogroup.com/vmogroup-global/assets/img/bestworks/img_ck_bg.jpg",
     field: "Comprehensive",
     description: "Digital Marketing & CEM Platform",
     productName: "SYOMit",
@@ -203,7 +210,8 @@ export const SwiperBanner = [
   {
     productImg:
       "https://www.vmogroup.com/static/media/img_ck_screenshot.37beb192.png",
-    bgImage: "https://www.vmogroup.com/static/media/img_bbb_bg.606117b9.jpg",
+    bgImage:
+      "https://cdn.vmogroup.com/vmogroup-global/assets/img/bestworks/img_ck_bg.jpg",
     field: "Amazing AI based",
     description: "Marketplace",
     productName: "Bicycle Blue Book",
@@ -214,7 +222,7 @@ export const SwiperBanner = [
     productImg:
       "	https://www.vmogroup.com/static/media/img_staffdirect_screenshot.deabb6d0.png",
     bgImage:
-      "https://www.vmogroup.com/static/media/img_staffdirect_bg.2e399af2.jpg",
+      "https://cdn.vmogroup.com/vmogroup-global/assets/img/bestworks/img_ck_bg.jpg",
     field: "Quick and easy way",
     description:
       "To connect qualified dental professionals with dental offices",
@@ -226,48 +234,59 @@ export const SwiperBanner = [
 
 export const logoGridList = [
   {
-    imgLink: "https://www.vmogroup.com/static/media/ricoh.ebcba070.png",
-  },
-  {
-    imgLink: "https://www.vmogroup.com/static/media/eis.370a3e8f.png",
-  },
-  {
-    imgLink: "https://www.vmogroup.com/static/media/BBB.fa9d4fe4.png",
-  },
-  {
-    imgLink: "https://www.vmogroup.com/static/media/betterhomes.f9afc739.png",
-  },
-  {
-    imgLink: "https://www.vmogroup.com/static/media/Exgo.610df2e8.png",
+    imgLink:
+      "https://cdn.vmogroup.com/vmogroup-global/assets/img/ourcustomers/Exgo.png",
   },
   {
     imgLink:
-      "https://www.vmogroup.com/static/media/ExpertSolutions.0d9342a2.png",
+      "https://cdn.vmogroup.com/vmogroup-global/assets/img/ourcustomers/ExpertSolutions.png",
   },
   {
-    imgLink: "https://www.vmogroup.com/static/media/OPC.53f936e7.png",
+    imgLink:
+      "https://cdn.vmogroup.com/vmogroup-global/assets/img/ourcustomers/OptixSolutionsLimited.png",
   },
   {
-    imgLink: "https://www.vmogroup.com/static/media/photobook.ec23c0a1.png",
+    imgLink:
+      "https://cdn.vmogroup.com/vmogroup-global/assets/img/ourcustomers/moneycil.png",
   },
   {
-    imgLink: "https://www.vmogroup.com/static/media/PowerKiosk.dca8a3e8.png",
+    imgLink:
+      "https://cdn.vmogroup.com/vmogroup-global/assets/img/ourcustomers/photobook.png",
   },
   {
-    imgLink: "https://www.vmogroup.com/static/media/VMAS.d5af5dfb.png",
+    imgLink:
+      "https://cdn.vmogroup.com/vmogroup-global/assets/img/ourcustomers/PowerKiosk.png",
   },
   {
-    imgLink: "https://www.vmogroup.com/static/media/betterhomes.f9afc739.png",
+    imgLink:
+      "https://cdn.vmogroup.com/vmogroup-global/assets/img/ourcustomers/RouteX.png",
   },
   {
-    imgLink: "https://www.vmogroup.com/static/media/Exgo.610df2e8.png",
+    imgLink:
+      "https://cdn.vmogroup.com/vmogroup-global/assets/img/ourcustomers/VMAS.png",
+  },
+  {
+    imgLink:
+      "https://cdn.vmogroup.com/vmogroup-global/assets/img/ourcustomers/hashpeak_02.png",
+  },
+  {
+    imgLink:
+      "https://cdn.vmogroup.com/vmogroup-global/assets/img/ourcustomers/ach-logo.png",
+  },
+  {
+    imgLink:
+      "https://cdn.vmogroup.com/vmogroup-global/assets/img/ourcustomers/greatmeta.png",
+  },
+  {
+    imgLink:
+      "https://cdn.vmogroup.com/vmogroup-global/assets/img/ourcustomers/abcd-logo_01.png",
   },
 ];
 
 export const OurDomains = [
   {
     title: "Banking and Finance",
-    img: "https://www.vmogroup.com/static/media/ic_finance.961b0ea0.svg",
+    img: "https://cdn.vmogroup.com/vmogroup-global/assets/img/ourdomain/ic_finance.svg",
     list: [
       "Stock market trading platform",
       "Digital Banking System",
@@ -276,7 +295,7 @@ export const OurDomains = [
   },
   {
     title: "Health Care",
-    img: "https://www.vmogroup.com/static/media/ic_health.9f069986.svg",
+    img: "https://cdn.vmogroup.com/vmogroup-global/assets/img/ourdomain/ic_health.svg",
     list: [
       "Stock market trading platform",
       "Digital Banking System",
@@ -285,7 +304,7 @@ export const OurDomains = [
   },
   {
     title: "Education",
-    img: "https://www.vmogroup.com/static/media/ic_education.129958f4.svg",
+    img: "https://cdn.vmogroup.com/vmogroup-global/assets/img/ourdomain/ic_education.svg",
     list: [
       "Stock market trading platform",
       "Digital Banking System",
@@ -294,7 +313,7 @@ export const OurDomains = [
   },
   {
     title: "Logistic",
-    img: "	https://www.vmogroup.com/static/media/ic_logistic.c8bfecc0.svg",
+    img: "https://cdn.vmogroup.com/vmogroup-global/assets/img/ourdomain/ic_logistic.svg",
     list: [
       "Stock market trading platform",
       "Digital Banking System",
@@ -303,7 +322,7 @@ export const OurDomains = [
   },
   {
     title: "Retailer, B2B, B2C",
-    img: "https://www.vmogroup.com/static/media/ic_shopping_bag.116e1827.svg",
+    img: "https://cdn.vmogroup.com/vmogroup-global/assets/img/ourdomain/ic_shopping_bag.svg",
     list: [
       "Stock market trading platform",
       "Digital Banking System",
@@ -312,7 +331,7 @@ export const OurDomains = [
   },
   {
     title: "Real Estate",
-    img: "https://www.vmogroup.com/static/media/ic_property.0c2da66b.svg",
+    img: "https://cdn.vmogroup.com/vmogroup-global/assets/img/ourdomain/ic_property.svg",
     list: [
       "Stock market trading platform",
       "Digital Banking System",
@@ -321,7 +340,7 @@ export const OurDomains = [
   },
   {
     title: "Leisure & Travel",
-    img: "https://www.vmogroup.com/static/media/ic_global.051f5874.svg",
+    img: "https://cdn.vmogroup.com/vmogroup-global/assets/img/ourdomain/ic_global.svg",
     list: [
       "Stock market trading platform",
       "Digital Banking System",
@@ -330,7 +349,7 @@ export const OurDomains = [
   },
   {
     title: "Loyalty",
-    img: "https://www.vmogroup.com/static/media/ic_global.051f5874.svg",
+    img: "https://cdn.vmogroup.com/vmogroup-global/assets/img/ourdomain/ic_global.svg",
     list: [
       "Stock market trading platform",
       "Digital Banking System",
@@ -339,7 +358,7 @@ export const OurDomains = [
   },
   {
     title: "Agriculture",
-    img: "https://www.vmogroup.com/static/media/ic_agriculture.9a4d6aa3.svg",
+    img: "https://cdn.vmogroup.com/vmogroup-global/assets/img/ourdomain/ic_agriculture.svg",
     list: [
       "Stock market trading platform",
       "Digital Banking System",
@@ -348,7 +367,7 @@ export const OurDomains = [
   },
   {
     title: "Start-ups",
-    img: "https://www.vmogroup.com/static/media/ic_finance.961b0ea0.svg",
+    img: "https://cdn.vmogroup.com/vmogroup-global/assets/img/ourdomain/ic_finance.svg",
     list: [
       "Stock market trading platform",
       "Digital Banking System",
@@ -357,7 +376,7 @@ export const OurDomains = [
   },
   {
     title: "Media",
-    img: "	https://www.vmogroup.com/static/media/ic_media.c3f223fd.svg",
+    img: "	https://cdn.vmogroup.com/vmogroup-global/assets/img/ourdomain/ic_media.svg",
     list: [
       "Stock market trading platform",
       "Digital Banking System",
@@ -366,7 +385,7 @@ export const OurDomains = [
   },
   {
     title: "Work and Collaborate",
-    img: "https://www.vmogroup.com/static/media/ic_collaborate.b3283ead.svg",
+    img: "https://cdn.vmogroup.com/vmogroup-global/assets/img/ourdomain/ic_collaborate.svg",
     list: [
       "Stock market trading platform",
       "Digital Banking System",
